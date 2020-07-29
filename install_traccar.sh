@@ -6,7 +6,7 @@
 
 ARQLOG=/var/log/traccar.log
 USERHOME=/tmp
-MYSQLPASSWORD=traccar
+MYSQLPASSWORD=sua senha
 DBTRACCAR=traccardb
 HOST=127.0.0.1
 IP=$(ip -f inet a|grep -oP "(?<=inet ).+(?=\/)" | sed -n 2p)
